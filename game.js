@@ -90,7 +90,7 @@ Module.expectedDataFileDownloads++;
       function assert(check, msg) {
         if (!check) throw msg + new Error().stack;
       }
-      Module['FS_createPath']('/', 'theme', true, true);
+      
 
       function DataRequest(start, end, crunched, audio) {
         this.start = start;
@@ -284,6 +284,6 @@ Module.expectedDataFileDownloads++;
     }
 
   }
-  loadPackage({"package_uuid":"370c3f73-e0de-4966-8341-80ebc9b665be","remote_package_size":5127690,"files":[{"filename":"\\game.data","crunched":0,"start":0,"end":75562,"audio":false},{"filename":"\\game.js","crunched":0,"start":75562,"end":86973,"audio":false},{"filename":"\\index.html","crunched":0,"start":86973,"end":91862,"audio":false},{"filename":"\\love.js","crunched":0,"start":91862,"end":417174,"audio":false},{"filename":"\\love.wasm","crunched":0,"start":417174,"end":5119667,"audio":false},{"filename":"\\theme\\bg.png","crunched":0,"start":5119667,"end":5126828,"audio":false},{"filename":"\\theme\\love.css","crunched":0,"start":5126828,"end":5127690,"audio":false}]});
+  loadPackage({"package_uuid":"5086ae29-c63e-49e0-b9a4-c86fa10e8eda","remote_package_size":75562,"files":[{"filename":"/game.love","crunched":0,"start":0,"end":75562,"audio":false}]});
 
 })();
