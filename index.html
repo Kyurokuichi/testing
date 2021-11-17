@@ -90,7 +90,6 @@
         monitorRunDependencies: function(left) {
           this.remainingDependencies = left;
           this.totalDependencies = Math.max(this.totalDependencies, left);
-          Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
         }
       };
       Module.setStatus('Downloading...');
